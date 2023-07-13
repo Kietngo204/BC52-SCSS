@@ -1,0 +1,26 @@
+// $number: 1;
+@for $number from 1 to 13 {
+  .col-#{$number} {
+    width: 100% * $number/12;
+  }
+}
+@for $number from 1 to 13 {
+  .col-sm-#{$number} {
+    width: 100% * $number/12;
+  }
+}
+@for $number from 1 to 13 {
+  .col-md-#{$number} {
+    width: 100% * $number/12;
+  }
+}
+@for $number from 1 to 13 {
+  .col-lg-#{$number} {
+    width: 100% * $number/12;
+  }
+}
+@for $number from 1 to 13 {
+  .col-xl-#{$number} {
+    width: 100% * $number/12;
+  }
+}

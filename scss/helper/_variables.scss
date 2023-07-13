@@ -22,3 +22,11 @@ $fs-8: 44px;
 $fw-1: 400;
 $fw-2: 600;
 $fw-3: 700;
+
+// Định nghĩa breakpoints để responsive
+$breakpoints: (
+  "small": 576px,
+  "medium": 768px,
+  "large": 992px,
+  "extra-large": 1200px,
+);
